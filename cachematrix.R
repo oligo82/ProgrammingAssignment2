@@ -3,10 +3,10 @@
 
 ## Write a short comment describing this function
 
-makeCacheMatrix <- function(x = matrix()) {
-
+makeCacheMatrix <- function(x, ncol, nrow) {
+              mat <- matrix(x,ncol,nrow)
+              print(mat)
 }
-
 
 ## Write a short comment describing this function
 
